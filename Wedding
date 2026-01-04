@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarah & John's Wedding Registry</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Sarah & John's Wedding Registry</h1>
+            <p class="wedding-date">October 15, 2024</p>
+            <p class="subtitle">Thank you for helping us start our new life together!</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="intro">
+            <p>We're so excited to celebrate our special day with you! Below you'll find our registry items from various stores. Click on any item to go directly to the store page.</p>
+        </section>
+
+        <section class="store-section">
+            <div class="store-header">
+                <img src="https://logo.clearbit.com/amazon.com" alt="Amazon" class="store-logo">
+                <h2>Amazon Registry</h2>
+                <a href="https://amazon.com/wedding/registry/your-registry-id" class="view-full-registry" target="_blank">View Full Registry</a>
+            </div>
+            <div class="gift-grid">
+                <div class="gift-item">
+                    <img src="https://via.placeholder.com/200x200?text=Kitchen+Aid+Mixer" alt="KitchenAid Mixer">
+                    <h3>KitchenAid Stand Mixer</h3>
+                    <p class="price">$349.99</p>
+                    <a href="https://amazon.com/dp/B00063ULMI" target="_blank" class="gift-link">View on Amazon</a>
+                </div>
+                <div class="gift-item">
+                    <img src="https://via.placeholder.com/200x200?text=Coffee+Maker" alt="Coffee Maker">
+                    <h3>Ninja Coffee Maker</h3>
+                    <p class="price">$179.99</p>
+                    <a href="#" target="_blank" class="gift-link">View on Amazon</a>
+                </div>
+                <div class="gift-item">
+                    <img src="https://via.placeholder.com/200x200?text=Sheet+Set" alt="Sheet Set">
+                    <h3>Bamboo Sheet Set</h3>
+                    <p class="price">$89.99</p>
+                    <a href="#" target="_blank" class="gift-link">View on Amazon</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="store-section">
+            <div class="store-header">
+                <img src="https://logo.clearbit.com/target.com" alt="Target" class="store-logo">
+                <h2>Target Registry</h2>
+                <a href="https://target.com/gift-registry/registry/your-registry-id" class="view-full-registry" target="_blank">View Full Registry</a>
+            </div>
+            <div class="gift-grid">
+                <div class="gift-item">
+                    <img src="https://via.placeholder.com/200x200?text=Dinnerware+Set" alt="Dinnerware Set">
+                    <h3>Stoneware Dinnerware Set</h3>
+                    <p class="price">$119.99</p>
+                    <a href="#" target="_blank" class="gift-link">View on Target</a>
+                </div>
+                <div class="gift-item">
+                    <img src="https://via.placeholder.com/200x200?text=Bath+Towels" alt="Bath Towels">
+                    <h3>Organic Cotton Bath Towels</h3>
+                    <p class="price">$49.99</p>
+                    <a href="#" target="_blank" class="gift-link">View on Target</a>
+                </div>
+                <div class="gift-item">
+                    <img src="https://via.placeholder.com/200x200?text=Picture+Frames" alt="Picture Frames">
+                    <h3>Wedding Photo Frame Set</h3>
+                    <p class="price">$24.99</p>
+                    <a href="#" target="_blank" class="gift-link">View on Target</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="store-section">
+            <div class="store-header">
+                <img src="https://logo.clearbit.com/crateandbarrel.com" alt="Crate & Barrel" class="store-logo">
+                <h2>Crate & Barrel Registry</h2>
+                <a href="https://crateandbarrel.com/gift-registry/your-registry-id" class="view-full-registry" target="_blank">View Full Registry</a>
+            </div>
+            <div class="gift-grid">
+                <div class="gift-item">
+                    <img src="https://via.placeholder.com/200x200?text=Wine+Glasses" alt="Wine Glasses">
+                    <h3>Crystal Wine Glass Set</h3>
+                    <p class="price">$79.99</p>
+                    <a href="#" target="_blank" class="gift-link">View on Crate & Barrel</a>
+                </div>
+                <div class="gift-item">
+                    <img src="https://via.placeholder.com/200x200?text=Serving+Tray" alt="Serving Tray">
+                    <h3>Marble Serving Tray</h3>
+                    <p class="price">$59.99</p>
+                    <a href="#" target="_blank" class="gift-link">View on Crate & Barrel</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="store-section">
+            <div class="store-header">
+                <img src="https://logo.clearbit.com/etsy.com" alt="Etsy" class="store-logo">
+                <h2>Etsy Favorites</h2>
+            </div>
+            <div class="gift-grid">
+                <div class="gift-item">
+                    <img src="https://via.placeholder.com/200x200?text=Custom+Cutting+Board" alt="Custom Cutting Board">
+                    <h3>Personalized Cutting Board</h3>
+                    <p class="price">$45.00</p>
+                    <a href="#" target="_blank" class="gift-link">View on Etsy</a>
+                </div>
+                <div class="gift-item">
+                    <img src="https://via.placeholder.com/200x200?text=Wedding+Art" alt="Wedding Art">
+                    <h3>Custom Wedding Date Art</h3>
+                    <p class="price">$35.00</p>
+                    <a href="#" target="_blank" class="gift-link">View on Etsy</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="thank-you">
+            <h2>Thank You!</h2>
+            <p>Your presence at our wedding is the greatest gift of all. We're so grateful for your love and support as we begin this new chapter together.</p>
+            <p>If you have any questions about our registry, please don't hesitate to reach out!</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Sarah & John's Wedding Registry</p>
+        </div>
+    </footer>
+</body>
+</html>
